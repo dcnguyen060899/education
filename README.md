@@ -1,7 +1,7 @@
 # Education
 
 ## Purpose
-This project will analyze educationcal gap across school in the US.
+This project will analyze educational gap across schools in the US.
 
 ## Data
 The following datasets are used in this analysis:
