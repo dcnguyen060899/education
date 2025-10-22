@@ -43,6 +43,45 @@ Environment:
 
 All dependencies are listed in requirements.txt. Run pip install -r requirements.txt to install libraries.
 
+## Analysis
+The complete data preparation, cleaning, exploratory analysis, and statistical modeling are documented in [Notebook_Extract_with_Explanations.md](Notebook_Extract_with_Explanations.md), located in the project repository.
+
+Our workflow summary:
+1. **Data Preparation**
+  - Loaded and merged three datasets using standardized 12-digit school identification codes (NCESSCH)
+  - Filtered to traditional high schools with complete ACT data, resulting in 7,227 schools across 20 states
+  - Achieved 96% match rate (NCESSCH School ID from datasets matched) across all three data sources
+  - Standardized datetime formats and column names to lowercase snake_case conventions
+  - Created unified, cleaned dataset ready for exploratory data analysis and modeling
+
+2. **Data Quality Control**
+  - Identified and corrected impossible values (negative ACT scores, negative free lunch percentages)
+  - Set out-of-range values to NaN to preserve other valid information
+  - Used iterative imputation (IterativeImputer from scikit-learn) for missing socioeconomic predictors
+  - Removed duplicate entries and filtered to relevant school types (high schools only)
+  - Validated completeness of final dataset
+
+3. **Feature Engineering**
+  - Converted raw counts (teachers, AP courses, enrollments) to rates per 100 students to standardize measures across different school sizes (mitigate size effect and account for opportunity metrics)
+    - However, size effect still persist as a confounding factor (please refer to the [Notebook_Extract_with_Explanations.md](Notebook_Extract_with_Explanations.md) for full detail analysis and explanation)
+  - Created derived variables including total AP enrollment, total calculus enrollment, total chronic absenteeism, and total suspensions
+  - Validated that rate variables showed minimal correlation with total enrollment, confirming successful removal of size confounding
+  - Standardized all predictors (mean=0, SD=1) for direct effect size comparison in regression models
+  - Created poverty tertiles (low/medium/high) for Analysis of Variance (ANOVA) testing
+
+4. **Exploratory Data Analysis**
+  - Examined correlation patterns between socioeconomic factors and ACT scores using heatmaps
+  - Visualized bivariate relationships using pair plots with regression lines
+  - Analyzed geographic distribution of schools across 20 states using choropleth maps
+  - Investigated resource disparities across poverty levels using grouped bar charts
+  - Created boxplots to identify outliers in socioeconomic and resource variables
+
+5. **Statistical and Regression Modeling**
+  - Conducted Analysis of Variance (ANOVA) to test whether resource levels differ significantly across poverty groups
+  - Fit multiple regression models to quantify the relationship between poverty, institutional resources, and ACT scores
+  - Compared three models: (1) baseline socioeconomic model, (2) full model with institutional resources, (3) reduced model with significant predictors only
+  - Assessed model fit using R-squared, Mean Absolute Error (MAE), and Root Mean Squared Error (RMSE)
+  - Evaluated mediation effects by comparing poverty coefficients across models to determine the proportion of the poverty-achievement relationship explained by institutional resources
 
 ## Results
 The complete findings and conclusions from this analysis are documented in the final report: [Communicate-the-Results-Education.pdf](https://github.com/dcnguyen060899/education/blob/main/reports/Communicate%20the%20Results%20%7C%20Education.pdf), located in the reports folder. This report provides a comprehensive overview of how school poverty concentration relates to institutional resources and academic achievement, written for a general audience with clear explanations of statistical concepts.
