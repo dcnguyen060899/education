@@ -44,7 +44,7 @@ Environment:
 All dependencies are listed in requirements.txt. Run pip install -r requirements.txt to install libraries.
 
 ## Analysis
-The complete data preparation, cleaning, exploratory analysis, and statistical modeling are documented in [Notebook_Extract_with_Explanations.md](https://github.com/dcnguyen060899/education/blob/main/code/final_education_project_notebook.ipynb), located in the project repository.
+The complete data preparation, cleaning, exploratory analysis, and statistical modeling are documented in [final_education_project_notebook.ipynb](https://github.com/dcnguyen060899/education/blob/main/code/final_education_project_notebook.ipynb), located in the project repository.
 
 Our workflow summary:
 1. **Data Preparation**
@@ -65,7 +65,7 @@ Our workflow summary:
   - Converted raw counts (teachers, AP courses, enrollments) to rates per 100 students to standardize measures across different school sizes (mitigate size effect and account for opportunity metrics)
   - Created derived variables including total AP enrollment, total calculus enrollment, total chronic absenteeism, and total suspensions
   - Validated that rate variables showed minimal correlation with total enrollment, confirming successful removal of size confounding
-    - However, even after converting AP Calculus counts to rate variables (per 100 students), the effect of school size remains a confounding factor. Larger schools tend to offer fewer AP Calculus courses per student, and this size-related pattern persists in the rate-based analysis. For a detailed explanation and supporting analysis, please refer to [Notebook_Extract_with_Explanations.md](https://github.com/dcnguyen060899/education/blob/main/code/final_education_project_notebook.ipynb).
+    - However, even after converting AP Calculus counts to rate variables (per 100 students), the effect of school size remains a confounding factor. Larger schools tend to offer fewer AP Calculus courses per student, and this size-related pattern persists in the rate-based analysis. For a detailed explanation and supporting analysis, please refer to [final_education_project_notebook.ipynb](https://github.com/dcnguyen060899/education/blob/main/code/final_education_project_notebook.ipynb).
   - Standardized all predictors (mean=0, SD=1) for direct effect size comparison in regression models
   - Created poverty tertiles (low/medium/high) for Analysis of Variance (ANOVA) testing
 
