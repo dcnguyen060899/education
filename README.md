@@ -18,7 +18,7 @@ This project examines whether schools serving higher concentrations of economica
   - [CRDC Data Access](https://github.com/dcnguyen060899/education/blob/main/data/CRDC_2015-16_School_Data.csv)
   - [Alternative Link](https://www.ed.gov/about/offices/list/ocr/docs/2015-16-crdc-data.zip) 
 
-The processed datasets used in this analysis are available in the data folder: 
+The processed datasets used in this analysis are available in the [data folder](https://github.com/dcnguyen060899/education/tree/main/data): 
 - The initial dataset was cleaned after merging socioeconomic factors from the EdGap dataset with the NCES Common Core of Data, resulting in [education_clean.csv](https://github.com/dcnguyen060899/education/blob/main/data/education_clean.csv).
 - Next, we integrated the Civil Rights Data Collection (CRDC) dataset, performed additional cleaning, and saved the result as [education_crdc_cleaned.csv](https://github.com/dcnguyen060899/education/blob/main/data/education_crdc_cleaned.csv).
 - Finally, we conducted further iterative cleaning and created new columns (such as resource rates and standardized variables) to support more robust analysis, producing the final dataset [education_crdc_final.csv](https://github.com/dcnguyen060899/education/blob/main/data/education_crdc_final.csv).
