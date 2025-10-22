@@ -116,7 +116,6 @@ The complete findings and conclusions from this analysis are documented in the f
 - Data from a single year (2016-2017 for CCD, 2015-16 for CRDC), limiting ability to assess trends over time
 - Only 20 states represented in the final dataset, which may not generalize to all U.S. schools
 - Institutional resources explain only 12% of the poverty-achievement relationship, indicating unmeasured factors play a larger role
-- Cross-sectional design prevents causal inference; observed relationships may reflect selection effects or unmeasured confounders
 - ACT scores are not available for all schools, potentially introducing selection bias
 - Resource measures based on course offerings and enrollments may not capture instructional quality differences within courses
 
