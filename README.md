@@ -86,6 +86,40 @@ Our workflow summary:
 ## Results
 The complete findings and conclusions from this analysis are documented in the final report for a more technical audience: [Communicate-the-Results-Education.pdf](https://github.com/dcnguyen060899/education/blob/main/reports/Communicate%20the%20Results%20%7C%20Education.pdf), located in the reports folder. This report provides a comprehensive overview of how school poverty concentration relates to institutional resources and academic achievement, written for a general audience with clear explanations of statistical concepts.
 
+## Main Findings:
+1. **Resource Disparities Across Poverty Levels:**
+  - High-poverty schools offer significantly fewer Advanced Placement courses (0.16 standard deviations below average) compared to low-poverty schools (0.17 standard deviations above average)
+  - Calculus enrollment access shows even larger gaps: low-poverty schools average 0.38 SD above mean, while high-poverty schools average 0.24 SD below mean
+  - High-poverty schools experience chronic absenteeism rates 0.44 SD above average and suspension rates 0.56 SD above average
+  - All resource differences were statistically significant (all F > 67, all p < 0.001)
+
+2. **Mediation Analysis:**
+  - School-level poverty concentration (free/reduced lunch eligibility) is the strongest predictor of ACT scores, with a coefficient of -1.78 in the baseline model
+  - Adding institutional resource variables (AP courses, calculus access, suspensions, absenteeism) reduces the poverty coefficient to -1.57
+  - This represents a 12% mediation effect, meaning institutional resources explain approximately one-eighth of the poverty-achievement relationship
+  - The remaining 88% operates through unmeasured mechanisms such as instructional quality, peer norms, family supports, and developmental impacts of economic stress
+
+3. **Significant Predictors of ACT Performance:**
+  - Calculus enrollment rate: +0.24 points per standard deviation increase
+  - Suspension rate: -0.25 points per standard deviation increase
+  - Chronic absenteeism rate: -0.14 points per standard deviation increase
+  - AP course availability: +0.10 points per standard deviation increase (after controlling for school size)
+  - School size shows a suppression effect: larger schools score higher despite offering fewer AP courses per capita
+
+4. **Model Performance:**
+  - Baseline socioeconomic model: R² = 0.628, MAE = 1.15, RMSE = 1.53
+  - Full model with institutional resources: R² = 0.657, MAE = 1.11, RMSE = 1.47
+  - Reduced model (significant predictors only): R² = 0.657, MAE = 1.11, RMSE = 1.47
+  - Adding institutional resources improves predictive accuracy by approximately 3 percentage points
+
+## Study Limitations
+- Data from a single year (2016-2017 for CCD, 2015-16 for CRDC), limiting ability to assess trends over time
+- Only 20 states represented in the final dataset, which may not generalize to all U.S. schools
+- Institutional resources explain only 12% of the poverty-achievement relationship, indicating unmeasured factors play a larger role
+- Cross-sectional design prevents causal inference; observed relationships may reflect selection effects or unmeasured confounders
+- ACT scores are not available for all schools, potentially introducing selection bias
+- Resource measures based on course offerings and enrollments may not capture instructional quality differences within courses
+
 ## Study Limitations
 - Data from a single year (2016-2017 for CCD, 2015-16 for CRDC), limiting ability to assess trends over time
 - Only 20 states represented in the final dataset, which may not generalize to all U.S. schools
@@ -102,4 +136,4 @@ LinkedIn: [https://www.linkedin.com/in/duwe-ng/](https://www.linkedin.com/in/duw
 
 
 ## License
-This project is licensed under the [MIT License]() - Copyright (c) 2025 Duy Nguyen
+This project is licensed under the [MIT License](LICENSE) - Copyright (c) 2025 Duy Nguyen
