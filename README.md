@@ -23,6 +23,7 @@ The processed datasets used in this analysis are available in the [data folder](
 - Next, we integrated the Civil Rights Data Collection (CRDC) dataset, performed additional cleaning, and saved the result as [education_crdc_cleaned.csv](https://github.com/dcnguyen060899/education/blob/main/data/education_crdc_cleaned.csv).
 - Finally, we conducted further iterative cleaning and created new columns (such as resource rates and standardized variables) to support more robust analysis, producing the final dataset [education_crdc_final.csv](https://github.com/dcnguyen060899/education/blob/main/data/education_crdc_final.csv).
 
+**REPRODUCIBILITY NOTE:** We keep a tiny .gitattributes file in the data/ folder so GitHub stores our large CSVs with Git LFS instead of bloating the repository. It’s not code—just a pointer that keeps clones fast and ensures the exact dataset versions are preserved for reproducible results.
 ## Requirements
 This project requires the following Python packages:
 
