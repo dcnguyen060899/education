@@ -84,7 +84,7 @@ Our workflow summary:
   - Evaluated mediation effects by comparing poverty coefficients across models to determine the proportion of the poverty-achievement relationship explained by institutional resources
 
 ## Results
-The complete findings and conclusions from this analysis are documented in the final report: [Communicate-the-Results-Education.pdf](https://github.com/dcnguyen060899/education/blob/main/reports/Communicate%20the%20Results%20%7C%20Education.pdf), located in the reports folder. This report provides a comprehensive overview of how school poverty concentration relates to institutional resources and academic achievement, written for a general audience with clear explanations of statistical concepts.
+The complete findings and conclusions from this analysis are documented in the final report for a more technical audience: [Communicate-the-Results-Education.pdf](https://github.com/dcnguyen060899/education/blob/main/reports/Communicate%20the%20Results%20%7C%20Education.pdf), located in the reports folder. This report provides a comprehensive overview of how school poverty concentration relates to institutional resources and academic achievement, written for a general audience with clear explanations of statistical concepts.
 
 ## Study Limitations
 - Data from a single year (2016-2017 for CCD, 2015-16 for CRDC), limiting ability to assess trends over time
