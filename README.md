@@ -23,11 +23,36 @@ The processed datasets used in this analysis are available in the [data folder](
 - Next, we integrated the Civil Rights Data Collection (CRDC) dataset, performed additional cleaning, and saved the result as [education_crdc_cleaned.csv](https://github.com/dcnguyen060899/education/blob/main/data/education_crdc_cleaned.csv).
 - Finally, we conducted further iterative cleaning and created new columns (such as resource rates and standardized variables) to support more robust analysis, producing the final dataset [education_crdc_final.csv](https://github.com/dcnguyen060899/education/blob/main/data/education_crdc_final.csv).
 
+## Requirements
+This project requires the following Python packages:
+
+- pandas: Data manipulation and analysis
+- numpy: Numerical computations
+- matplotlib: Basic plotting and customization
+- seaborn: Statistical visualization
+- scipy: Statistical testing
+- statsmodels: Advanced statistical modeling
+- scikit-learn: Machine learning utilities for imputation and preprocessing
+- plotly: Interactive geographic visualizations
+- openpyxl: A Python library for reading and writing Excel `.xlsx` files. It is included because your local machine requires it to load the EdGap dataset, which is provided in Excel format.
+
+Environment:
+
+- Python 3
+- Jupyter Notebook/Lab or Visual Studio Code
+
+All dependencies are listed in requirements.txt. Run pip install -r requirements.txt to install libraries.
 
 
 
 
+## Author
+**Duy Nguyen**  
+MS in Data Science - Seattle University
+
+Email: [dnguyen44@seattleu.edu](mailto:dnguyen44@seattleu.edu)  
+LinkedIn: [https://www.linkedin.com/in/duwe-ng/](https://www.linkedin.com/in/duwe-ng/)
 
 
-
+## License
 This project is licensed under the [MIT License]() - Copyright (c) 2025 Duy Nguyen
