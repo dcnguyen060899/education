@@ -63,7 +63,7 @@ Our workflow summary:
 
 3. **Feature Engineering**
   - Converted raw counts (teachers, AP courses, enrollments) to rates per 100 students to standardize measures across different school sizes (mitigate size effect and account for opportunity metrics)
-    - However, size effect still persist as a confounding factor (please refer to the [Notebook_Extract_with_Explanations.md](Notebook_Extract_with_Explanations.md) for full detail analysis and explanation)
+    - However, size effect still persists as a confounding factor even after convert to rate variables (please refer to the [Notebook_Extract_with_Explanations.md](Notebook_Extract_with_Explanations.md) for full detail analysis and explanation)
   - Created derived variables including total AP enrollment, total calculus enrollment, total chronic absenteeism, and total suspensions
   - Validated that rate variables showed minimal correlation with total enrollment, confirming successful removal of size confounding
   - Standardized all predictors (mean=0, SD=1) for direct effect size comparison in regression models
