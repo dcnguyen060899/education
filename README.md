@@ -61,7 +61,7 @@ Our workflow summary:
   - Removed duplicate entries and filtered to relevant school types (high schools only)
   - Validated completeness of final dataset
 
-3. **Feature Engineering**
+3. **Predictor Construction (Derived Columns)**
   - Converted raw counts (teachers, AP courses, enrollments) to rates per 100 students to standardize measures across different school sizes (mitigate size effect and account for opportunity metrics)
   - Created derived variables including total AP enrollment, total calculus enrollment, total chronic absenteeism, and total suspensions
   - Validated that rate variables showed minimal correlation with total enrollment, confirming successful removal of size confounding
