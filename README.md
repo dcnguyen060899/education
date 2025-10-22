@@ -15,7 +15,7 @@ This project examines whether schools serving higher concentrations of economica
   - From my repo: [NCES Common Core of Data](https://github.com/dcnguyen060899/education/blob/main/data/ccd_sch_029_1617_w_1a_11212017.csv) OR
   - [Alternative Link](https://www.dropbox.com/scl/fi/fkafjk8902sq8ptxh94r2/ccd_sch_029_1617_w_1a_11212017.csv?rlkey=gucrdz5f6e38bezz2y3yalxbw&e=1&dl=0)
 - Civil Rights Data Collection (CRDC): Institutional resource measures for the 2015-16 school year, including AP/IB programs, advanced mathematics offerings, teacher qualifications, counselor availability, disciplinary rates, and chronic absenteeism
-  - [CRDC Data Access](https://github.com/dcnguyen060899/education/blob/main/data/CRDC_2015-16_School_Data.csv)
+  - From my repo: [CRDC Data Access](https://github.com/dcnguyen060899/education/blob/main/data/CRDC_2015-16_School_Data.csv) OR
   - [Alternative Link](https://www.ed.gov/about/offices/list/ocr/docs/2015-16-crdc-data.zip) 
 
 The processed datasets used in this analysis are available in the [data folder](https://github.com/dcnguyen060899/education/tree/main/data): 
