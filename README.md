@@ -7,13 +7,14 @@ This project examines whether schools serving higher concentrations of economica
 ###Data sourced from three national educational databases:
 
 - EdGap.org: School-level ACT/SAT scores and socioeconomic indicators (unemployment rates, college degree percentages, family structures, median household income, and free/reduced-price lunch eligibility) for 7,986 schools
-  - EdGap Data Access[EdGap Data Access](https://github.com/dcnguyen060899/education/blob/main/data/EdGap_data.xlsx) 
+  - [EdGap Data Access](https://github.com/dcnguyen060899/education/blob/main/data/EdGap_data.xlsx) 
 
 - Common Core of Data (CCD): School characteristics from the National Center for Education Statistics (NCES) for the 2016-2017 academic year, including school names, locations, types, educational levels, and charter status
-  - NCES Common Core of Data[NCES Common Core of Data](https://github.com/dcnguyen060899/education/blob/main/data/ccd_sch_029_1617_w_1a_11212017.csv)
+  - [NCES Common Core of Data](https://github.com/dcnguyen060899/education/blob/main/data/ccd_sch_029_1617_w_1a_11212017.csv)
 
 - Civil Rights Data Collection (CRDC): Institutional resource measures for the 2015-16 school year, including AP/IB programs, advanced mathematics offerings, teacher qualifications, counselor availability, disciplinary rates, and chronic absenteeism
-  - CRDC Data Access[CRDC Data Access](https://github.com/dcnguyen060899/education/blob/main/data/CRDC_2015-16_School_Data.csv)
+  - [CRDC Data Access](https://github.com/dcnguyen060899/education/blob/main/data/CRDC_2015-16_School_Data.csv)
+  - [Alternative Link](https://www.ed.gov/about/offices/list/ocr/docs/2015-16-crdc-data.zip) 
 
 
 
