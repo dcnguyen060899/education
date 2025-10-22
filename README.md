@@ -44,6 +44,14 @@ Environment:
 All dependencies are listed in requirements.txt. Run pip install -r requirements.txt to install libraries.
 
 
+## Results
+The complete findings and conclusions from this analysis are documented in the final report: [Communicate-the-Results-Education.pdf](reports/Communicate-the-Results-Education.pdf), located in the reports folder. This report provides a comprehensive overview of how school poverty concentration relates to institutional resources and academic achievement, written for a general audience with clear explanations of statistical concepts.
+
+## Study Limitations
+- Data from a single year (2016-2017 for CCD, 2015-16 for CRDC), limiting ability to assess trends over time
+- Only 20 states represented in the final dataset, which may not generalize to all U.S. schools
+- Institutional resources explain only 12% of the poverty-achievement relationship, indicating unmeasured factors play a larger role
+- Resource measures based on course offerings and enrollments may not capture instructional quality differences within courses
 
 
 ## Author
