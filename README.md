@@ -4,7 +4,7 @@
 This project examines whether schools serving higher concentrations of economically disadvantaged students systematically offer fewer college-preparatory opportunities, and whether these institutional differences help explain achievement gaps in ACT scores. Using data from 7,227 U.S. high schools, we integrated socioeconomic indicators with institutional resource measures to uncover the structural factors that contribute to standardized test performance disparities. Our analysis reveals that while high-poverty schools face significant resource disadvantages—offering fewer Advanced Placement courses, reduced calculus access, higher suspension rates, and elevated chronic absenteeism—these institutional differences account for only approximately 12% of the poverty-achievement relationship, suggesting comprehensive interventions must address factors beyond school-level resources.
 
 ## Data
-###Data sourced from three national educational databases:
+### Data sourced from three national educational databases:
 
 - EdGap.org: School-level ACT/SAT scores and socioeconomic indicators (unemployment rates, college degree percentages, family structures, median household income, and free/reduced-price lunch eligibility) for 7,986 schools
   - From my repo: [EdGap Data Access](https://github.com/dcnguyen060899/education/blob/main/data/EdGap_data.xlsx) OR
