@@ -129,8 +129,6 @@ Contacts:
 
 - [Email](mailto:dnguyen44@seattleu.edu)  
 - [LinkedIn](https://www.linkedin.com/in/duwe-ng/)
-- [Portfolio](https://duyng-portfolio.com/docs/index_portfolio.html)
-
 
 ## License
 This project is licensed under the [MIT License](LICENSE) - Copyright (c) 2025 Duy Nguyen
