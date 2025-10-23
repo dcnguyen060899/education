@@ -86,7 +86,7 @@ Our workflow summary:
   - Evaluated mediation effects by comparing poverty coefficients across models to determine the proportion of the poverty-achievement relationship explained by institutional resources
 
 ## Results
-The complete findings and conclusions from this analysis are documented in the final communication eucation project report for a more technical audience: [Communicate-the-Results-Education.pdf](https://github.com/dcnguyen060899/education/blob/main/reports/Communicate%20the%20Results%20%7C%20Education.pdf), located in the reports folder. This report provides a comprehensive overview of how school poverty concentration relates to institutional resources and academic achievement, written for a technical audience with a more general audience style writing with clear explanations of statistical concepts.
+The complete findings and conclusions from this analysis are documented in the final communication education project report for a more technical audience: [Communicate-the-Results-Education.pdf](https://github.com/dcnguyen060899/education/blob/main/reports/Communicate%20the%20Results%20%7C%20Education.pdf), located in the reports folder. This report provides a comprehensive overview of how school poverty concentration relates to institutional resources and academic achievement, written for a technical audience with a more general audience style writing with clear explanations of statistical concepts.
 
 ## Main Findings:
 1. **Resource Disparities Across Poverty Levels:**
@@ -120,13 +120,6 @@ The complete findings and conclusions from this analysis are documented in the f
 - Institutional resources explain only 12% of the poverty-achievement relationship, indicating unmeasured factors play a larger role
 - ACT scores are not available for all schools, potentially introducing selection bias
 - Resource measures based on course offerings and enrollments may not capture instructional quality differences within courses
-
-## Study Limitations
-- Data from a single year (2016-2017 for CCD, 2015-16 for CRDC), limiting ability to assess trends over time
-- Only 20 states represented in the final dataset, which may not generalize to all U.S. schools
-- Institutional resources explain only 12% of the poverty-achievement relationship, indicating unmeasured factors play a larger role
-- Resource measures based on course offerings and enrollments may not capture instructional quality differences within courses
-
 
 ## Author
 **Duy Nguyen**  
