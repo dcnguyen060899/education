@@ -127,6 +127,7 @@ MS in Data Science - Seattle University
 
 Email: [dnguyen44@seattleu.edu](mailto:dnguyen44@seattleu.edu)  
 LinkedIn: [https://www.linkedin.com/in/duwe-ng/](https://www.linkedin.com/in/duwe-ng/)
+
 Portfolio: [https://duyng-portfolio.com/docs/index_portfolio.html](https://duyng-portfolio.com/docs/index_portfolio.html)
 
 
