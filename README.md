@@ -125,6 +125,8 @@ The complete findings and conclusions from this analysis are documented in the f
 **Duy Nguyen**  
 MS in Data Science - Seattle University
 
+Contacts:
+
 - [Email](mailto:dnguyen44@seattleu.edu)  
 - [LinkedIn](https://www.linkedin.com/in/duwe-ng/)
 - [Portfolio](https://duyng-portfolio.com/docs/index_portfolio.html)
